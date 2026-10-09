@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- qrref://share — так Share Extension открывает приложение -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>ru.ravel.qrref</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>qrref</string>
+			</array>
+		</dict>
+	</array>
+	<!-- Разрешает http только для локальной сети и localhost (например, свой сервер для отладки) -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<!-- Только стандартное HTTPS/WSS — экспортная проверка для TestFlight не нужна -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<!-- Полученные файлы видны в приложении «Файлы» -->
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+</dict>
+</plist>

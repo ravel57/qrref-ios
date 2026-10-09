@@ -1,0 +1,91 @@
+{
+  "sourceLanguage" : "ru",
+  "strings" : {
+    "Готовлю данные…" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preparing data…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готовлю данные…"
+          }
+        }
+      }
+    },
+    "Готово" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
+          }
+        }
+      }
+    },
+    "Готово к отправке. Откройте qrRef и отсканируйте QR-код получателя." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ready to send. Open qrRef and scan the recipient's QR code."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово к отправке. Откройте qrRef и отсканируйте QR-код получателя."
+          }
+        }
+      }
+    },
+    "Не удалось передать данные в qrRef. Откройте qrRef хотя бы раз и повторите." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't pass the data to qrRef. Open qrRef at least once and try again."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось передать данные в qrRef. Откройте qrRef хотя бы раз и повторите."
+          }
+        }
+      }
+    },
+    "Нечего отправлять" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing to send"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нечего отправлять"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
